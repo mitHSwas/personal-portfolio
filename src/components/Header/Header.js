@@ -3,7 +3,7 @@ import Resume from '../../assets/FinalResume(mithunbiswas).pdf';
 
 const Header = () => {
     return (
-        <div className='container mx-auto'>
+        <div id="header" className='container mx-auto'>
             <div className="navbar bg-base-100">
                 <div className="navbar-start">
                     <div className="dropdown">
@@ -19,7 +19,7 @@ const Header = () => {
                             <a className="btn btn-primary btn-outline btn-sm" href={Resume} download="Resume.pdf">Download Resume</a>
                         </ul>
                     </div>
-                    <a className="btn btn-ghost normal-case text-xl">MITHUN</a>
+                    <a href='#header' className="btn btn-ghost normal-case text-xl">MITHUN</a>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1 font-semibold">
